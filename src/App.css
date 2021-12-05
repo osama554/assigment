@@ -1,0 +1,338 @@
+/* Header */
+.header {
+ display: flex;
+ flex-wrap: wrap;
+ height: 800px;
+}
+.headerRight {
+ background-image: url('./assets/Product\ Design.png');
+ background-position-x: 0px;
+ background-position-y: -450px;
+ background-repeat: no-repeat;
+ width: 50%;
+}
+.headerLeft {
+ width: 50%;
+}
+.headerLeftInner {
+ height: 100%;
+ width: 80%;
+ margin-left: auto;
+}
+.headerLeftInner div {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ height: 100%;
+ padding: 0px 170px 0px 0px;
+}
+.headerLeftInner h1 {
+ font-size: 50px;
+}
+.headerLeftInner p {
+ line-height: 30px;
+}
+/* Home */
+
+.section-1 {
+ display: flex;
+ width: 80%;
+ margin: 0 auto;
+}
+.section-1-left {
+ width: 50%;
+}
+.section-1-right {
+ width: 50%;
+}
+.section-1-right > div {
+ padding-right: 143px;
+}
+.section-1-right > div p {
+ line-height: 30px;
+}
+.section-2 {
+ width: 80%;
+ margin: 0 auto;
+}
+.section-2-inner {
+ border: 2px dashed #4ed3fffa;
+ height: 700px;
+ width: 50%;
+ margin: 0 auto;
+ position: relative;
+ margin-top: 150px;
+ border-top-left-radius: 50%;
+ border-top-right-radius: 50%;
+ border-bottom-right-radius: 50%;
+ border-bottom: transparent;
+ border-left: transparent;
+}
+.research {
+ text-align: center;
+ width: 200px;
+ position: absolute;
+ top: -80px;
+ right: 35%;
+}
+.UX {
+ text-align: center;
+ width: 200px;
+ position: absolute;
+ top: 260px;
+ right: -110px;
+}
+.discovery {
+ text-align: center;
+ width: 200px;
+ position: absolute;
+ top: 260px;
+ left: -110px;
+}
+.UI {
+ text-align: center;
+ width: 200px;
+ position: absolute;
+ bottom: -150px;
+ right: 35%;
+}
+.research > div {
+ background: #fff;
+ padding: 60px;
+ border-radius: 50%;
+ cursor: pointer;
+}
+.research > div:hover {
+ background: #4ed3fffa;
+}
+.UX > div:hover {
+ background: #4ed3fffa;
+}
+.discovery > div:hover {
+ background: #4ed3fffa;
+}
+.UI > div:hover {
+ background: #4ed3fffa;
+}
+.UX > div {
+ background: #fff;
+ padding: 60px;
+ border-radius: 50%;
+ cursor: pointer;
+}
+.discovery > div {
+ background: #fff;
+ padding: 60px;
+ border-radius: 50%;
+ cursor: pointer;
+}
+.UI > div {
+ background: #fff;
+ padding: 60px;
+ border-radius: 50%;
+ cursor: pointer;
+}
+.section-3 {
+ margin-top: 250px;
+ background-color: #4ed3fffa;
+}
+.section-3-inner {
+ width: 80%;
+ margin: 0 auto;
+ text-align: center;
+ padding: 50px 0px 30px 0px;
+}
+.services {
+ display: flex;
+ flex-wrap: wrap;
+}
+.service {
+ padding: 15px 0px;
+ background: #fff;
+ border-radius: 10px;
+ margin-right: 15px;
+ margin-bottom: 20px;
+ cursor: pointer;
+ width: 23%;
+}
+.service:hover {
+ color: #4ed3fffa;
+}
+.section-4 {
+ display: flex;
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 100px;
+}
+.section-4-left {
+ width: 50%;
+}
+.section-4-right {
+ width: 50%;
+}
+.tactics {
+ width: 50%;
+ display: flex;
+ justify-content: space-between;
+}
+.tactics span {
+ display: block;
+ margin-bottom: 10px;
+}
+.section-5 {
+ display: flex;
+ width: 80%;
+ margin: 100px auto;
+}
+.section-5-left {
+ width: 50%;
+}
+.section-5-right {
+ width: 50%;
+}
+.section-3-inner h2 {
+ font-size: 45px;
+ color: #fff;
+}
+/* Form */
+.form {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.form-inline {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.button-section {
+ display: flex;
+ flex-direction: column;
+}
+.button-section button {
+ padding: 5px 30px;
+ margin-bottom: 10px;
+}
+.add {
+ background-color: #49f949;
+ border: transparent;
+ border-radius: 7px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+.submit {
+ background-color: #4ed3fffa;
+ border: transparent;
+ border-radius: 7px;
+ cursor: pointer;
+}
+.remove {
+ margin-top: 10px;
+ background-color: #ff0000;
+ border: transparent;
+ border-radius: 7px;
+ color: #fff;
+ padding: 6px;
+ cursor: pointer;
+}
+a {
+ display: block;
+ margin-top: 30px;
+ color: #4ed3fffa;
+ cursor: pointer;
+}
+@media screen and (max-width: 800px) and (min-width: 319px) {
+ img {
+  width: 100%;
+ }
+ svg {
+  width: 100%;
+ }
+ .headerRight {
+  display: none;
+ }
+ .headerLeft {
+  width: 100%;
+ }
+ .headerLeftInner {
+  width: 100%;
+  height: auto;
+ }
+ .header {
+  height: auto;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+ .section-1 {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+ }
+ .section-1-left {
+  width: 100%;
+ }
+ .section-1-right {
+  width: 100%;
+ }
+ .section-1-right > div {
+  padding: 0px;
+ }
+ .section-2 {
+  display: none;
+ }
+ .section-3 {
+  margin-top: 60px;
+ }
+ .section-3-inner {
+  padding: 10px 0px 10px 0px;
+  width: 90%;
+ }
+ .service {
+  width: 100%;
+ }
+ .section-4 {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  flex-direction: column-reverse;
+ }
+ .section-4-left {
+  width: 100%;
+ }
+ .section-4-right {
+  width: 100%;
+ }
+ .section-5 {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  flex-direction: column;
+ }
+ .section-5-left {
+  width: 100%;
+ }
+ .section-5-right {
+  width: 100%;
+ }
+ .tactics {
+  width: 100%;
+ }
+ .section-2-mobile {
+  width: 90%;
+  margin: 0 auto;
+ }
+ .section-2-mobile div {
+  margin-bottom: 20px;
+ }
+ .headerLeftInner div {
+  padding: 0px;
+ }
+}
